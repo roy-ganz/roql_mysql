@@ -4,6 +4,7 @@
 //! the trait [Mutate](../toql/mutate/trait.Mutate.html).
 //!
 
+
 use mysql::{prelude::GenericConnection};
 
 use crate::row::Row;
@@ -50,6 +51,8 @@ pub mod sql_arg;
 
 pub mod error;
 pub mod row;
+
+
 
 use crate::error::Result;
 use crate::error::ToqlMySqlError;
