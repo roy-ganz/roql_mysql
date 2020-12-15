@@ -66,7 +66,7 @@ use toql::tree::{
 use toql::{
     alias_translator::AliasTranslator,
     from_row::FromRow,
-    parameter::ParameterMap,
+    parameter_map::ParameterMap,
     sql_expr::{resolver::Resolver, PredicateColumn},
     sql_mapper::{mapped::Mapped}, backend::context::Context, cache::Cache,
 };
