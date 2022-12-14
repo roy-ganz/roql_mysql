@@ -7,15 +7,10 @@ description = "Library with MySql version 14 integration for toql"
 keywords = ["toql"]
 readme = "README.md"
 license = "MIT/Apache-2.0"
-repository = "https://github.com/roy-ganz/toql"
+repository = "https://github.com/roy-ganz/toql_mysql"
 
 [dependencies]
 toql = { git="https://github.com/roy-ganz/toql.git", branch="v0.3"  }
 
 mysql = "14"
 log= "0.4"
-
-
-
-
-
